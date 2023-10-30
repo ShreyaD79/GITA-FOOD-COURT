@@ -1,0 +1,43 @@
+*{
+  color:greenyellow;
+  background-size: cover;
+}
+.button-area button {
+    color:purple;
+    display: center;
+    width: 160px !important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: greenyellow;
+    border: 2px solid rgb(114, 41, 232);
+    transition: all 0.3s ease;
+  }
+   .button-area button:hover {
+    color: yellow;
+    background: none;
+  }
+
+  h1{
+    font-style:italic;
+    font-size:45px;
+  }
+  h2{
+    font-style:italic;
+    font-size:17px;
+  }
+
+  .top-container{
+    background-image:url("form1.jpeg");
+    border: solid 10px;
+    width: 500px;
+    height: 500px;
+    padding-top:25px ;
+    color:whitesmoke;
+    font-size:18px;
+  }
+
